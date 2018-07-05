@@ -1,0 +1,36 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        xmlns:oxy="clr-namespace:OxyPlot.Wpf;assembly=OxyPlot.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <oxy:Plot  oxy:Name="plotmodel">
+            <oxy:Plot.Series >
+                <oxy:LineSeries  oxy:Name="line1" />
+                <oxy:LineSeries  oxy:Name="line2" />
+            </oxy:Plot.Series>
+
+            <oxy:Plot.Axes>
+                <oxy:LinearAxis Name="lin2axes" Position="Left" AxislineColor="Gray"
+                                AxislineStyle="Solid"
+                                MajorGridlineStyle="Solid" MajorGridlineColor="Gray"
+                                MinorGridlineStyle="Dot" MinorGridlineColor="Gray"
+                                TextColor="Gray" TickStyle="None"
+                                StartPosition="-0.01" 
+                                IntervalLength="150"
+                                Title="Y軸" TitleColor="Gray" />
+
+                
+
+            </oxy:Plot.Axes>
+
+        </oxy:Plot>
+        
+        
+       
+    </Grid>
+</Window>
