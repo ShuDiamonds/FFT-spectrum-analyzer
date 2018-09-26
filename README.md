@@ -7,7 +7,7 @@ This project file is FFT spectrum analyzer on `WPF application` using `NAudio`, 
 このプロジェクトは、FFTスペクトルアナライザーを `Windows WPFアプリケーション`で制作したものです。ライブラリには、音声信号処理に`NAudio`、グラフ描画に`OxyPlot`、数学系の計算に`Math Net` を使用しています。
 
 ## Description
-All FFT processes in this C# program are written without other librarys. the sampling rate is 40kHz, the window function is hamming function. this [repository code] (https://github.com/ShuDiamonds/FFT-spectrum-analyzer/blob/master/WpfApplication1/MainWindow.xaml.cs) contains FFT and DFT methods. please feel free to use them !
+All FFT processes in this C# program are written without other librarys. the sampling rate is 40kHz, the window function is hamming function. this [repository code](https://github.com/ShuDiamonds/FFT-spectrum-analyzer/blob/master/WpfApplication1/MainWindow.xaml.cs) contains FFT and DFT methods. please feel free to use them !
 
  C#でのFFTの処理には、ライブラリを使わず、自作で書き上げました。サンプリング周波数は40kHz、窓関数にはハミング窓を使用しています。
  コードの中には、FFTとDFTのメソッドも入っています。  
