@@ -10,7 +10,7 @@ This project file is FFT spectrum analyzer on `WPF application` using `NAudio`, 
 All FFT processes in this C# program are written without other librarys. the sampling rate is 40kHz, the window function is hamming function. this [repository code](https://github.com/ShuDiamonds/FFT-spectrum-analyzer/blob/master/WpfApplication1/MainWindow.xaml.cs) contains FFT and DFT methods. please feel free to use them !
 
  C#でのFFTの処理には、ライブラリを使わず、自作で書き上げました。サンプリング周波数は40kHz、窓関数にはハミング窓を使用しています。
- コードの中には、FFTとDFTのメソッドも入っています。  
+ [コード](https://github.com/ShuDiamonds/FFT-spectrum-analyzer/blob/master/WpfApplication1/MainWindow.xaml.cs)の中には、FFTとDFTのメソッドも入っています。  
  
  `WaveIn_DataAvailableメソッド`:NAudioでの音声信号の入力を処理
  
